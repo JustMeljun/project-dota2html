@@ -1,0 +1,133 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body {
+  line-height: 1.8;
+  color: black;
+ 
+  
+}
+
+ .loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #310c0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
+  .navbar {
+    border-bottom: 1px solid rgba(211, 151, 151, 0.1);
+    background: -webkit-linear-gradient(rgba(29, 28, 28, 0.466),rgba(134, 5, 5, 0.61));
+ }
+ 
+ .logo-text {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: crimson !important;
+ }
+ .navbar .nav-item .nav-link {
+    color: rgb(237, 240, 233);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+ 
+ .navbar-light .navbar-nav .nav-link.active  {
+    color: #fc0505;
+ }
+
+  
+
+  .welcome-text{
+    position: relative;
+    width: auto;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+    top: -120px;
+    height: 450px;
+ }
+ .welcome-text h1{
+  text-align: center;
+  color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px black, 0 0 35px rgb(146, 13, 13), 0 0 10px rgb(209, 206, 8);
+    font-family:'Times New Roman', Times, serif;
+  font-size: 40px;
+  
+}
+ 
+ .btn {
+   
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 12px 28px;
+  border-radius: 20;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  
+}
+
+.btn-brand {
+  background-color: #4d0b5e;
+  
+}
+
+.btn-brand:hover {
+  background-color: #e913bb;
+  
+}
+
+.btns {
+  display: flex;
+  padding: 7px 16px;
+  border-radius: 0;
+  margin-left: -73%;
+}
+
+.btns-brand {
+  background-color: #bb0ce7;
+  
+}
+
+.btns-brand:hover {
+  background-color: #ce2f6e;
+  
+}

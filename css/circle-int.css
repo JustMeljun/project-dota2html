@@ -1,0 +1,79 @@
+/*start*/
+/*Hero Section*/
+.mh-skills .mh-professional-skill{
+    padding-right: 60px;
+    color: white;
+ }
+ .mh-skills .mh-professional-skill h5{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family:'Poppins', sans-serif;
+ 
+ }
+ .mh-professional-skills{
+    padding-left: 20%;
+    /*background: rgba(37, 36, 36, 0.603);*/
+    
+ }
+ .mh-professional-skills h4{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+ }
+.mh-professional-progress li{
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+    width: 28%;
+    margin-bottom: 30px;
+    text-align: center;
+ }
+ .mh-progress{
+    margin-bottom: 10px;
+    font: 900 1.14285/1;
+    color: white;
+ }
+ .mh-progress .progressbar-text{
+    color: inherit !important;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+ }
+ .progress.progress-line{
+    height: 10px;
+    margin-right: 60px;
+ 
+ }
+ .progress.progress-line .progressbar-text{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 60px;
+    transform: translate(-35%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .mh-progress.mh-progress-circle{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+ }
+ 
+ .mh-progress path:nth-child(1){
+    stroke: rgb(0, 0, 0, 0.7);
+ }
+ .mh-progress path:nth-child(2){
+    stroke: #0b97ce ;
+    
+ }
+ 
+ /*end*/
+ 

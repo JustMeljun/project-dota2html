@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- GROUP 2 HTML PROJECT, TOPIC DOTA 2 -->
+      <!-- Meljun O. Duriman - Leader - all source code, js, css are provided by me -->
+      <!-- Rogelio Tasong Jr. - Member - Home section, all images, jpeg, png, video are provided  by him  -->
+      <!-- Irene Bandoy - Member - Contact section, load assistance  -->
+      <!-- Geronimo Jaum - Member - Footer section, load assistance  -->
+    
+    <!-- Start -->  
+    <!-- Created from here by Meljun Duriman -->  
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/boxicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/w3.css">
+    
+    <!-- Java Script -->
+   
+    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="scripthero.js"></script>
+    <script src="scripthero-str.js"></script>
+    
+    
+
+      <title>
+        
+         Dota 2 Hub
+
+      </title>
+      <!--add icon link-->
+      <link rel="shortcut icon" href="logo-1.ico" type="image/x-icon">
+
+   </head>
+   
+   <body>
+      <div class="loader-wrapper">
+         <span class="loader"><span class="loader-inner"></span></span>
+      </div>
+      <script>
+         $(window).on("load", function(){
+            $(".loader-wrapper").fadeOut("slow");
+             });
+      </script>
+   </body>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+     
+    
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light  ">
+         <div class="container">
+         <a class="navbar-brand logo-text" href="#"><img src="img/dota2hub1.png" width="90" height="50" /></a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+
+               <li class="nav-item">
+               <a class="nav-link" href="#home">Home</a>
+               </li>
+               <li class="nav-item">
+               <a class="nav-link" href="#about">Latest News</a>
+               </li>
+            
+               <li class="nav-item">
+                  <a class="nav-link" href="#gallery">Heroes</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+               </li>
+            </ul>
+         </div>
+         </div>
+      </nav>
+      <!-- END - Created by Meljun Duriman -->
+      
+      <!-- START Created from here by Rogelio Tasong Jr -->
+      <section id="home">
+         
+         <div class="container text-center">
+            
+               <video autoplay muted loop controls width="1920" height="1080">
+                  <source src="trailer2.mp4" type="video/mp4">
+               </video>
+               
+               
+              
+         </div>
+      </section>
+      <!-- END - Created by Rogelio Tasong Jr -->
+
+      <!-- START Created from here by Meljun Duriman -->
+
+      <section class="section about-section " id="about" style="background: url(./img/bgd5.jpg) no-repeat center;  background-size: cover;">
+         <div class="pic">
+            <div class="carousel slide" id="carouselExampleIndicators" data-ride="carousel">
+               <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                  
+               </ol>
+               <div class="carousel-inner">
+                     
+                        <div class="carousel-item active">
+                           
+                              <img class="d-block w-100" src="img/news(01).png" style="width: 30%; cursor: zoom-in;"
+                                 onclick="document.getElementById('modal01').style.display='block'" alt="First Slide">
+                                 
+                                    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+
+                                       
+                                          <div class="w3-modal-content w3-animate-zoom">
+                                             <img src="img/news(1).png" style="width: 100%">
+                                             
+                                          </div>
+                                    </div>
+                        
+
+                        </div>
+                        
+                        <div class="carousel-item">
+                           <img class="d-block w-100" src="img/news(02).png" style="width: 30%; cursor: zoom-in;"
+                           onclick="document.getElementById('modal02').style.display='block'" alt="Second Slide">
+                                    
+                           <div id="modal02" class="w3-modal" onclick="this.style.display='none'">
+
+                              
+                                 <div class="w3-modal-content w3-animate-zoom">
+                                    <img src="img/news(2).png" style="width: 100%">
+                                 
+                                 </div>
+                           </div>
+
+
+                        </div>
+                     <div class="carousel-item">
+
+                        <img class="d-block w-100" src="img/news(03).png"  style="width: 30%; cursor: zoom-in;" 
+                        onclick="document.getElementById('modal03').style.display='block'" alt="Third Slide">
+
+                           <div id="modal03" class="w3-modal" onclick="this.style.display='none'">
+
+                              
+                                 <div class="w3-modal-content w3-animate-zoom">
+                                    <img src="img/news(3).png" style="width: 100%">
+                                    
+                                 </div>
+                           </div>
+                     </div>	
+
+                     <div class="carousel-item">
+
+                        <img class="d-block w-100" src="img/news(04).png" style="width: 30%; cursor: zoom-in;"
+                        onclick="document.getElementById('modal04').style.display='block'"alt="Fourth Slide">
+
+                           <div id="modal04" class="w3-modal" onclick="this.style.display='none'">
+
+                              
+                                 <div class="w3-modal-content w3-animate-zoom">
+                                    <img src="img/news(4).png" style="width: 100%">
+                                    
+                                 </div>
+                           </div>
+
+                     </div>
+                     <div class="carousel-item">
+
+                        <img class="d-block w-100" src="img/news(05).png" style="width: 30%; cursor: zoom-in;"
+                        onclick="document.getElementById('modal05').style.display='block'" alt="Fifth Slide">
+
+                           <div id="modal05" class="w3-modal" onclick="this.style.display='none'">
+
+                              
+                                 <div class="w3-modal-content w3-animate-zoom">
+                                    <img src="img/news(5).png" style="width: 100%">
+                                 
+                                 </div>
+                           </div>
+
+                     </div>
+                     <div class="carousel-item">
+
+                        <img class="d-block w-100" src="img/news(06).png" style="width: 30%; cursor: zoom-in;"
+                        onclick="document.getElementById('modal06').style.display='block'" alt="Sixth Slide">
+                           <div id="modal06" class="w3-modal" onclick="this.style.display='none'">
+
+                              
+                                 <div class="w3-modal-content w3-animate-zoom">
+                                    <img src="img/news(6).png" style="width: 100%">
+                                    
+                                 </div>
+                           </div>
+
+                     </div>
+                  
+               </div>
+               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+               </a>
+               <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+               </a>
+            </div>	
+         </div>
+                  
+         </section>
+
+      
+         
+
+      <section id="gallery" class="row g-2 py-0" style="background-color: black;">
+         
+         <div class="choose">
+            <img src="img/remi.jpg" alt="">
+               <div class="centered"> Who will you Choose ?
+               </div>
+                  
+         </div>
+         <div>
+            <h6 style="font-size: 20px;">From magical tacticians to fierce brutes and cunning rouges, Dota 2's hero pool is massive
+               and limitless diverse. Unleash incredible abilities and devastating ultimates on your way to Victory.
+            </h6>
+         </div>
+         
+         
+        
+      
+      <section id="bdy" style="background-color: rgb(0, 0, 0);">
+         
+         
+         
+         <div class="slider">
+
+            <div class="slidet-track">
+
+               <div class="slidet">
+                  <a href="./Heroes/STR/abaddon.html"><img class="slidet" src="Heroes/STR/1.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/AGI/antimage.html"><img class="slidet" src="Heroes/AGI/11.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/INT/ancient.html"><img class="slidet" src="Heroes/INT/21.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/STR/alchemist.html"><img class="slidet" src="Heroes/STR/2.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/AGI/arcwarden.html"><img class="slidet" src="Heroes/AGI/12.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/INT/bane.html"><img class="slidet" src="Heroes/INT/22.png"alt="" ></a>
+               </div>
+               
+               
+               <!-- same slide -->
+
+               <div class="slidet">
+                  <a href="./Heroes/STR/abaddon.html"><img class="slidet" src="Heroes/STR/1.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/AGI/antimage.html"><img class="slidet" src="Heroes/AGI/11.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/INT/ancient.html"><img class="slidet" src="Heroes/INT/21.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/STR/alchemist.html"><img class="slidet" src="Heroes/STR/2.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/AGI/arcwarden.html"><img class="slidet" src="Heroes/AGI/12.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/INT/bane.html"><img class="slidet" src="Heroes/INT/22.png"alt="" ></a>
+               </div>
+               
+
+            </div>
+
+         </div>
+
+         <!--another slider-->
+
+         <div class="slider1">
+
+            <div class="slidet-track1">
+
+               <div class="slidet">
+                  <a href="./Heroes/STR/axe.html"><img class="slidet" src="Heroes/STR/3.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/AGI/bloodseeker.html"><img class="slidet" src="Heroes/AGI/13.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/INT/batrider.html"><img class="slidet" src="Heroes/INT/23.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/STR/beastmaster.html"><img class="slidet" src="Heroes/STR/4.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/AGI/bountyhunter.html"><img class="slidet" src="Heroes/AGI/14.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/INT/chen.html"><img class="slidet" src="Heroes/INT/24.png"alt="" ></a>
+               </div>
+               
+               
+               <!-- same slide -->
+
+               <div class="slidet">
+                  <a href="./Heroes/STR/axe.html"><img class="slidet" src="Heroes/STR/3.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/AGI/bloodseeker.html"><img class="slidet" src="Heroes/AGI/13.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/INT/batrider.html"><img class="slidet" src="Heroes/INT/23.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/STR/beastmaster.html"><img class="slidet" src="Heroes/STR/4.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/AGI/bountyhunter.html"><img class="slidet" src="Heroes/AGI/14.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/INT/chen.html"><img class="slidet" src="Heroes/INT/24.png"alt="" ></a>
+               </div>
+               
+
+            </div>
+
+         </div>
+         
+         <div class="slider2">
+
+            <div class="slidet-track2">
+
+               <div class="slidet">
+                  <a href="./Heroes/STR/brewmaster.html"><img class="slidet" src="Heroes/STR/5.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/AGI/broodmother.html"><img class="slidet" src="Heroes/AGI/15.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/INT/crystalmaiden.html"><img class="slidet" src="Heroes/INT/25.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/STR/bristleback.html"><img class="slidet" src="Heroes/STR/6.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/AGI/clinkz.html"><img class="slidet" src="Heroes/AGI/16.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/INT/darkseer.html"><img class="slidet" src="Heroes/INT/26.png"alt="" ></a>
+               </div>
+               
+               
+               <!-- same slide -->
+
+               <div class="slidet">
+                  <a href="./Heroes/STR/brewmaster.html"><img class="slidet" src="Heroes/STR/5.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/AGI/broodmother.html"><img class="slidet" src="Heroes/AGI/15.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/INT/crystalmaiden.html"><img class="slidet" src="Heroes/INT/25.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/STR/bristleback.html"><img class="slidet" src="Heroes/STR/6.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/AGI/clinkz.html"><img class="slidet" src="Heroes/AGI/16.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/INT/darkseer.html"><img class="slidet" src="Heroes/INT/26.png"alt="" ></a>
+               </div>
+               
+
+            </div>
+
+         </div>
+         <!--another-->
+
+         <div class="slider3">
+
+            <div class="slidet-track3">
+   
+               <div class="slidet">
+                  <a href="./Heroes/STR/centaur.html"><img class="slidet" src="Heroes/STR/7.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/AGI/drowranger.html"><img class="slidet" src="Heroes/AGI/17.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/INT/darkwillow.html"><img class="slidet" src="Heroes/INT/27.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/STR/chaosknight.html"><img class="slidet" src="Heroes/STR/8.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/AGI/emberspirit.html"><img class="slidet" src="Heroes/AGI/18.png"alt="" ></a>
+               </div>
+               <div class="slidet">
+                  <a href="./Heroes/INT/dazzle.html"><img class="slidet" src="Heroes/INT/28.png"alt="" ></a>
+               </div>
+                  
+                  
+                  <!-- same slide -->
+   
+                  <div class="slidet">
+                     <a href="./Heroes/STR/centaur.html"><img class="slidet" src="Heroes/STR/7.png"alt="" ></a>
+                  </div>
+                  <div class="slidet">
+                     <a href="./Heroes/AGI/drowranger.html"><img class="slidet" src="Heroes/AGI/17.png"alt="" ></a>
+                  </div>
+                  <div class="slidet">
+                     <a href="./Heroes/INT/darkwillow.html"><img class="slidet" src="Heroes/INT/27.png"alt="" ></a>
+                  </div>
+                  <div class="slidet">
+                     <a href="./Heroes/STR/chaosknight.html"><img class="slidet" src="Heroes/STR/8.png"alt="" ></a>
+                  </div>
+                  <div class="slidet">
+                     <a href="./Heroes/AGI/emberspirit.html"><img class="slidet" src="Heroes/AGI/18.png"alt="" ></a>
+                  </div>
+                  <div class="slidet">
+                     <a href="./Heroes/INT/dazzle.html"><img class="slidet" src="Heroes/INT/28.png"alt="" ></a>
+                  </div>
+                  
+   
+            </div>
+            <!--another-->
+         </div>
+
+               <div class="slider4">
+
+                  <div class="slidet-track4">
+      
+                     <div class="slidet">
+                        <a href="./Heroes/STR/clockwerk.html"><img class="slidet" src="Heroes/STR/9.png"alt="" ></a>
+                     </div>
+                     <div class="slidet">
+                        <a href="./Heroes/AGI/facelessvoid.html"><img class="slidet" src="Heroes/AGI/19.png"alt="" ></a>
+                     </div>
+                     <div class="slidet">
+                        <a href="./Heroes/INT/deathprophet.html"><img class="slidet" src="Heroes/INT/29.png"alt="" ></a>
+                     </div>
+                     <div class="slidet">
+                        <a href="./Heroes/STR/dawnbreaker.html"><img class="slidet" src="Heroes/STR/10.png"alt="" ></a>
+                     </div>
+                     <div class="slidet">
+                        <a href="./Heroes/AGI/gyrocopter.html"><img class="slidet" src="Heroes/AGI/20.png"alt="" ></a>
+                     </div>
+                     <div class="slidet">
+                        <a href="./Heroes/INT/disruptor.html"><img class="slidet" src="Heroes/INT/30.png"alt="" ></a>
+                     </div>
+                     
+                     
+                     <!-- same slide -->
+      
+                     <div class="slidet">
+                        <a href="./Heroes/STR/clockwerk.html"><img class="slidet" src="Heroes/STR/9.png"alt="" ></a>
+                     </div>
+                     <div class="slidet">
+                        <a href="./Heroes/AGI/facelessvoid.html"><img class="slidet" src="Heroes/AGI/19.png"alt="" ></a>
+                     </div>
+                     <div class="slidet">
+                        <a href="./Heroes/INT/deathprophet.html"><img class="slidet" src="Heroes/INT/29.png"alt="" ></a>
+                     </div>
+                     <div class="slidet">
+                        <a href="./Heroes/STR/dawnbreaker.html"><img class="slidet" src="Heroes/STR/10.png"alt="" ></a>
+                     </div>
+                     <div class="slidet">
+                        <a href="./Heroes/AGI/gyrocopter.html"><img class="slidet" src="Heroes/AGI/20.png"alt="" ></a>
+                     </div>
+                     <div class="slidet">
+                        <a href="./Heroes/INT/disruptor.html"><img class="slidet" src="Heroes/INT/30.png"alt="" ></a>
+                     </div>
+                     
+                  </div>
+               </div>
+   
+            </div>
+            
+         </div><br>
+         <style>
+            #container{
+               text-align: center;
+            }
+         </style>
+         <div id="container">
+         <button type="button" class="btn btn-brand" onclick="document.location='Dota2Hero-ver2.html'">
+            View All Heroes</button></div>
+
+
+      </section>
+      <!-- END - Created by Meljun Duriman -->
+
+      <!-- START Created from here by Irene Bandoy -->
+      <section style="background: url(./img/bgd8.png) no-repeat center;  background-size: cover;">
+      <section id="contact">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-12 section-intro">
+                  <h1 style="color: white; font-size: 40px; text-shadow: 0 0 35px rgb(248, 10, 236)">CONTACT</h1>
+                  
+               </div>
+               <div class="col-lg-4">
+                  <img src="img/dota2bg2.jpg" alt="">
+               </div>
+               <div class="col-lg-6 offset-lg-1">
+                  <form>
+                     <div class="mb-3">
+                       <small>Name</small>
+                       <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                     </div>
+                     <div class="mb-3">
+                        <small>Email</small>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <small>Message:</small>
+                        <textarea name="" id="" cols="30" rows="4" class="form-control"></textarea>
+                      </div>
+                     <button type="submit" class="btn btn-brand">Submit</button>
+                   </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      </section> 
+
+      <!-- END - Created by Irene Bandoy -->
+
+      <!-- START Created from here by Geronimo Jaum -->
+      <footer>
+         <div class="footer-top">
+            <div class="container">
+               <div class="row gy-5">
+                  <div class="col-md-4">
+                     <h4 class="logo-text">Group2</h4>
+                     <p>I hope you will like our webpage.</p>
+                     <div class="social-icons">
+                        <a href="#"><i class="bx bxl-facebook"></i></a>
+                        <a href="#"><i class="bx bxl-twitter"></i></a>
+                        <a href="#"><i class="bx bxl-instagram"></i></a>
+                     
+                     </div>
+                  </div>
+                  <div class="col-md-2">
+                     <h5 class="title-sm">Navigation</h5>
+                     <div class="footer-links">
+                        <a class="nav-link" href="#about">Latest News</a>
+                        <a class="nav-link" href="#gallery">Heroes</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="Dota2CoverPage.html">Cover</a>
+                     </div>
+                  </div>
+            
+                  <div class="col-md-2">
+                     <h5 class="title-sm">Contact</h5>
+                     <div class="footer-links">
+                        <p class="mb">BISU Balilihan, Magsija, Balilihan, Bohol</p>
+                        <p class="mb-">+6399212788277</p>
+                        <p class="mb">Group2@bisubalilihan.com</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="hline">
+         </div>
+         <div class="footer-bottom">
+            <div class="container">
+               <div class="row justify-content-between gy-3">
+                  <div class="col-md-6">
+                     <p class="mb-0"> All rights reserved</p>
+                  </div>
+                  <div class="col-auto">
+                     <a class="navbar-brand logo-text" href="#">
+                        <img src="img/footer_logo.png" width="50" height="30" /></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- END - Created by Geronimo Jaum -->
+
+    <!-- Device: My Laptop -->
+    
+  </body>
+</html>
